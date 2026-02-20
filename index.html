@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gojo Satoru Gallery</title>
+
+<style>
+body {
+    background-color: #f0f0f0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 2 Slots Per Row */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Card */
+.pin-container {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.pin-container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pin-image-wrapper {
+    position: relative;
+}
+
+.pin-image {
+    width: 100%;
+    display: block;
+}
+
+/* Hover Overlay */
+.pin-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.pin-container:hover .pin-overlay {
+    opacity: 1;
+}
+
+.download-btn {
+    background-color: #e60023;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Footer */
+.pin-footer {
+    padding: 10px;
+}
+
+.pin-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Credit */
+.credit {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+</style>
+</head>
+
+<body>
+
+<h2 style="text-align:center;">Gojo Satoru Gallery</h2>
+
+<div class="gallery">
+
+<!-- Repeat 10 Cards -->
+
+<!-- Card 1 -->
+<div class="pin-container">
+    <div class="pin-image-wrapper">
+        <img src="https://placehold.co/600x800?text=Gojo+1" class="pin-image">
+        <div class="pin-overlay">
+            <a href="https://placehold.co/600x800?text=Gojo+1" download class="download-btn">Download</a>
+        </div>
+    </div>
+    <div class="pin-footer">
+        <p class="pin-title">Gojo Satoru</p>
+    </div>
+</div>
+
+<!-- Card 2 -->
+<div class="pin-container">
+    <div class="pin-image-wrapper">
+        <img src="https://placehold.co/600x800?text=Gojo+2" class="pin-image">
+        <div class="pin-overlay">
+            <a href="https://placehold.co/600x800?text=Gojo+2" download class="download-btn">Download</a>
+        </div>
+    </div>
+    <div class="pin-footer">
+        <p class="pin-title">Gojo Satoru</p>
+    </div>
+</div>
+
+<!-- Card 3 -->
+<div class="pin-container">
+    <div class="pin-image-wrapper">
+        <img src="https://placehold.co/600x800?text=Gojo+3" class="pin-image">
+        <div class="pin-overlay">
+            <a href="https://placehold.co/600x800?text=Gojo+3" download class="download-btn">Download</a>
+        </div>
+    </div>
+    <div class="pin-footer">
+        <p class="pin-title">Gojo Satoru</p>
+    </div>
+</div>
+
+<!-- Card 4 -->
+<div class="pin-container">
+    <div class="pin-image-wrapper">
+        <img src="https://placehold.co/600x800?text=Gojo+4" class="pin-image">
+        <div class="pin-overlay">
+            <a href="https://placehold.co/600x800?text=Gojo+4" download class="download-btn">Download</a>
+        </div>
+    </div>
+    <div class="pin-footer">
+        <p class="pin-title">Gojo Satoru</p>
+    </div>
+</div>
+
+<!-- Card 5 -->
+<div class="pin-container">
+    <div class="pin-image-wrapper">
+        <img src="https://placehold.co/600x800?text=Gojo+5" class="pin-image">
+        <div class="pin-overlay">
+            <a href="https://placehold.co/600x800?text=Gojo+5" download class="download-btn">Download</a>
+        </div>
+    </div>
+    <div class="pin-footer">
+        <p class="pin-title">Gojo Satoru</p>
+    </div>
+</div>
+
+<!-- Card 6 -->
+<div class="pin-container">
+    <div class="pin-image-wrapper">
+        <img src="https://placehold.co/600x800?text=Gojo+6" class="pin-image">
+        <div class="pin-overlay">
+            <a href="https://placehold.co/600x800?text=Gojo+6" download class="download-btn">Download</a>
+        </div>
+    </div>
+    <div class="pin-footer">
+        <p class="pin-title">Gojo Satoru</p>
+    </div>
+</div>
+
+<!-- Card 7 -->
+<div class="pin-container">
+    <div class="pin-image-wrapper">
+        <img src="https://placehold.co/600x800?text=Gojo+7" class="pin-image">
+        <div class="pin-overlay">
+            <a href="https://placehold.co/600x800?text=Gojo+7" download class="download-btn">Download</a>
+        </div>
+    </div>
+    <div class="pin-footer">
+        <p class="pin-title">Gojo Satoru</p>
+    </div>
+</div>
+
+<!-- Card 8 -->
+<div class="pin-container">
+    <div class="pin-image-wrapper">
+        <img src="https://placehold.co/600x800?text=Gojo+8" class="pin-image">
+        <div class="pin-overlay">
+            <a href="https://placehold.co/600x800?text=Gojo+8" download class="download-btn">Download</a>
+        </div>
+    </div>
+    <div class="pin-footer">
+        <p class="pin-title">Gojo Satoru</p>
+    </div>
+</div>
+
+<!-- Card 9 -->
+<div class="pin-container">
+    <div class="pin-image-wrapper">
+        <img src="https://placehold.co/600x800?text=Gojo+9" class="pin-image">
+        <div class="pin-overlay">
+            <a href="https://placehold.co/600x800?text=Gojo+9" download class="download-btn">Download</a>
+        </div>
+    </div>
+    <div class="pin-footer">
+        <p class="pin-title">Gojo Satoru</p>
+    </div>
+</div>
+
+<!-- Card 10 -->
+<div class="pin-container">
+    <div class="pin-image-wrapper">
+        <img src="https://placehold.co/600x800?text=Gojo+10" class="pin-image">
+        <div class="pin-overlay">
+            <a href="https://placehold.co/600x800?text=Gojo+10" download class="download-btn">Download</a>
+        </div>
+    </div>
+    <div class="pin-footer">
+        <p class="pin-title">Gojo Satoru</p>
+    </div>
+</div>
+
+</div>
+
+<div class="credit">
+    Made by Bheehaan Jeenwal
+</div>
+
+</body>
+</html>
